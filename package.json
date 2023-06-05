@@ -11,13 +11,17 @@
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist" 
   },
-  "author": "Jonas Schedtmann",
+  "author": "Chong Jiejun",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^2.2.1"
+  },
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
   },
   "dependencies": {
+    "source-map": "^0.8.0-beta.0",
     "fracty": "^1.0.9"
   }
 }
