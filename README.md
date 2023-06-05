@@ -6,7 +6,7 @@ Coded along with Jonas Schmedtmann and added some comments
 Learned a lot about JavaScript and the MVC (model view controller) architecture
 Will be learning React and Node.js soon to become a full stack developer
 
-Deployment (not continuous) will be available here
+Continuous deployment will be available here
 https://forkify-jjchong.netlify.app/
 
-Fixing continuous deployment issues soon
+Problem with netlify fixed after changing parcel to 2.8.3
