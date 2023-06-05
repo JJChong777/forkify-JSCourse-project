@@ -9,13 +9,13 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "npx parcel build index.html" 
+    "build": "parcel build index.html --dist-dir ./dist" 
   },
   "author": "Jonas Schedtmann",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.1",
-    "parcel": "^2.2.1"
+    "parcel": "^2.0.0-beta.1"
   },
   "dependencies": {
     "fracty": "^1.0.9"
